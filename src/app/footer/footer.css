@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  color: #8C56D4;
+}
+
+.level {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 20px;
+  background: #f2e8ec;
+  color: #8C56D4;
+  font-size: 0.85rem;
+}
+
+.copyright {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #8C56D4;
+  color: #777777;
+  font-size: 0.9rem;
+  text-align: center;
+}
