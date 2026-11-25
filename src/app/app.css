@@ -1,0 +1,50 @@
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 24px;
+  padding: 12px 32px;
+  background: #8C56D4;
+}
+
+.brand {
+  color: #fffae0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.topnav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topnav ul a {
+  display: block;
+  padding: 6px 14px;
+  border-radius: 6px;
+  color: #fffae0;
+  text-decoration: none;
+}
+
+.topnav ul a:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Added by routerLinkActive when the link matches the current URL. */
+.topnav ul a.active {
+  background: #fffae0;
+  color: #8C56D4;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .topnav {
+    padding: 12px 18px;
+  }
+}
